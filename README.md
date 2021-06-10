@@ -4,5 +4,6 @@ Microsoft Rewards is the program that lets you use your points for exchange for 
 Basically, it's indirect money that you can only use in specific situations.
 You can earn those points by "Binging" (like "Googling", but on Bing).
 
-So, I made a Selenium script that searches 33 random words on Bing, so you can gather the maximum amount of points each day.
+So, I made a Selenium script that searches 33 (the limit) random words on Bing, so you can gather the maximum amount of points each day.
 
+## How to use
