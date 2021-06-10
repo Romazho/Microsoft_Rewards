@@ -14,4 +14,5 @@ So, I made a **Selenium script** that searches 33 random words on Bing, so you c
   2. You should see the Selenium icon on the upper right if the installation was succesfull. 
   
   ![image](https://user-images.githubusercontent.com/45086380/121598344-ba121700-ca0f-11eb-889e-26cfa44318a6.png)
+  
  3. Click on that icon.
