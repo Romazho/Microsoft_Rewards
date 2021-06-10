@@ -10,12 +10,12 @@ So, I made a **Selenium script** that searches 33 random words on Bing, so you c
 
 # How to use
 
-1. First, you need to install the [Selenium IDE](https://microsoftedge.microsoft.com/addons/detail/selenium-ide/ajdpfmkffanmkhejnopjppegokpogffp) extention on Edge. Yes on Edge, you will not get points if you do it on Chrome 😢 or on any other browser.
-2. You should see the Selenium icon on the upper right if the installation was succesfull.
+1. First, you need to install the [Selenium IDE](https://microsoftedge.microsoft.com/addons/detail/selenium-ide/ajdpfmkffanmkhejnopjppegokpogffp) extension on Edge. Yes on Edge, you will not get points if you do it on Chrome 😢 or on any other browser.
+2. You should see the Selenium icon on the upper right if the installation was successful.
 
     ![image](https://user-images.githubusercontent.com/45086380/121598344-ba121700-ca0f-11eb-889e-26cfa44318a6.png)
   
-3. Click on that icon and select "Open an exicting project". 
+3. Click on that icon and select "Open an existing project". 
 
     ![image](https://user-images.githubusercontent.com/45086380/121604560-c484de80-ca18-11eb-8276-d02b1fadd600.png)
  
