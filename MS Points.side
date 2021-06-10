@@ -1,0 +1,114 @@
+{
+  "id": "2abc4a76-f33a-48b3-82bd-7fd1c5ac1ebe",
+  "version": "2.0",
+  "name": "MS Points",
+  "url": "https://www.bing.com/",
+  "tests": [{
+    "id": "1321492f-4792-4091-b38e-4afd17e376f1",
+    "name": "Untitled",
+    "commands": [{
+      "id": "d1148b5d-f49b-469d-b012-b39720eb0358",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bing.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68f93fd8-1116-4b17-baf3-40dea2fba041",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Math.random().toString(36).substring(2,8)",
+      "targets": [],
+      "value": "word"
+    }, {
+      "id": "61173d41-ce74-4fc6-a324-2787fd4c9a19",
+      "comment": "",
+      "command": "type",
+      "target": "id=sb_form_q",
+      "targets": [
+        ["id=sb_form_q", "id"],
+        ["name=q", "name"],
+        ["css=#sb_form_q", "css:finder"],
+        ["xpath=//input[@id='sb_form_q']", "xpath:attributes"],
+        ["xpath=//form[@id='sb_form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "${word}"
+    }, {
+      "id": "a8bcfe92-c845-4676-bf4a-0c7d9e661d3d",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.search > svg",
+      "targets": [
+        ["css=.search > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5be4b852-bb92-478b-8a66-7726a00ef06f",
+      "comment": "",
+      "command": "times",
+      "target": "33",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76ba6aad-77dc-43dd-8ad5-c003ee411a3b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#b-scopeListItem-images > a",
+      "targets": [],
+      "value": "Images"
+    }, {
+      "id": "a68f67f8-540a-41df-a448-900dec6f1cb0",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Math.random().toString(36).substring(2,8)",
+      "targets": [],
+      "value": "word"
+    }, {
+      "id": "cd33e3b9-1d02-44f5-863b-7bac5d250a33",
+      "comment": "",
+      "command": "type",
+      "target": "id=sb_form_q",
+      "targets": [],
+      "value": "${word}"
+    }, {
+      "id": "412b02a0-c9f2-4164-b9aa-7fd349159d37",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=sb_form_go",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4b48065-fb63-4f47-9c50-87d39cb189f4",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "789328a0-80f2-412d-a7d8-e00993f89cf6",
+      "comment": "",
+      "command": "open",
+      "target": "https://account.microsoft.com/rewards/?refd=www.microsoft.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08ab30fa-0e3e-4d64-a988-f04da6a995b3",
+      "comment": "",
+      "command": "//close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "55fc09f6-7b29-4c96-81d1-1bf3083e5c59",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1321492f-4792-4091-b38e-4afd17e376f1"]
+  }],
+  "urls": ["https://www.bing.com/"],
+  "plugins": []
+}
