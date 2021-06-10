@@ -19,7 +19,7 @@ So, I made a **Selenium script** that searches 33 random words on Bing, so you c
 
     ![image](https://user-images.githubusercontent.com/45086380/121604560-c484de80-ca18-11eb-8276-d02b1fadd600.png)
  
-4. Select the "MS Rewards.side" file.
+4. Select the "MS Rewards.side" file that you downloaded from this project.
 5. Once there, click on the play button and enjoy the show 🙂.
 
     ![image](https://user-images.githubusercontent.com/45086380/121604824-4117bd00-ca19-11eb-8190-425c00f86449.png)
