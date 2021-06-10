@@ -1,11 +1,11 @@
 {
   "id": "2abc4a76-f33a-48b3-82bd-7fd1c5ac1ebe",
   "version": "2.0",
-  "name": "MS Points",
+  "name": "MS Rewards",
   "url": "https://www.bing.com/",
   "tests": [{
     "id": "1321492f-4792-4091-b38e-4afd17e376f1",
-    "name": "Untitled",
+    "name": "Microsoft Rewards",
     "commands": [{
       "id": "d1148b5d-f49b-469d-b012-b39720eb0358",
       "comment": "",
@@ -47,7 +47,7 @@
       "id": "5be4b852-bb92-478b-8a66-7726a00ef06f",
       "comment": "",
       "command": "times",
-      "target": "33",
+      "target": "32",
       "targets": [],
       "value": ""
     }, {
