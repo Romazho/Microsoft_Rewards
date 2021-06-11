@@ -24,3 +24,7 @@ So, I made a **Selenium script** that searches 33 random words on Bing, so you c
 
     ![image](https://user-images.githubusercontent.com/45086380/121604824-4117bd00-ca19-11eb-8190-425c00f86449.png)
 
+## Here is an example of the script working 
+![example](https://user-images.githubusercontent.com/45086380/121724751-4ecf5000-cab6-11eb-9071-22714c8f611f.gif)
+
+
